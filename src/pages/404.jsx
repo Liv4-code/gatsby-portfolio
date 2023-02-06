@@ -41,17 +41,9 @@ const NotFound = () => (
                         top="60%"
                     />
                     <Svg
-                        icon="triangle"
-                        width={8}
-                        stroke
-                        color="icon_darker"
-                        left="25%"
-                        top="5%"
-                    />
-                    <Svg
                         icon="circle"
                         width={64}
-                        color="icon_green"
+                        color="icon_darker"
                         left="95%"
                         top="5%"
                     />
