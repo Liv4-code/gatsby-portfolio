@@ -43,6 +43,22 @@ const NotFound = () => (
                         left="95%"
                         top="5%"
                     />
+                    <Svg
+                        icon="hexa"
+                        width={16}
+                        stroke
+                        color="icon_darker"
+                        left="10%"
+                        top="50%"
+                    />
+                    <Svg
+                        icon="hexa"
+                        width={8}
+                        stroke
+                        color="icon_darker"
+                        left="80%"
+                        top="70%"
+                    />
                 </Divider>
                 <Content
                     sx={{ variant: `texts.bigger` }}
