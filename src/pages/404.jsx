@@ -36,14 +36,14 @@ const NotFound = () => (
                     <Svg
                         icon="circle"
                         width={12}
-                        color="icon_darkest"
+                        color="#f542f2"
                         left="50%"
                         top="60%"
                     />
                     <Svg
                         icon="circle"
                         width={64}
-                        color="icon_darker"
+                        color="#f542f2"
                         left="95%"
                         top="5%"
                     />
@@ -51,7 +51,7 @@ const NotFound = () => (
                         icon="hexa"
                         width={16}
                         stroke
-                        color="icon_darker"
+                        color="#f542f2"
                         left="10%"
                         top="50%"
                     />
@@ -59,7 +59,7 @@ const NotFound = () => (
                         icon="hexa"
                         width={8}
                         stroke
-                        color="icon_darker"
+                        color="#f542f2"
                         left="80%"
                         top="70%"
                     />
