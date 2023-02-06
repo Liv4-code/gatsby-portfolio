@@ -37,7 +37,7 @@ module.exports = {
                 // https://css-tricks.com/meta-theme-color-and-trickery/
                 // theme_color: `#f6ad55`,
                 display: `standalone`,
-                icon: "static/favicon.svg",
+                icon: "static/favicon.png",
                 icons: [
                     {
                         src: `/android-chrome-192x192.png`,
