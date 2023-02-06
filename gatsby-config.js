@@ -37,17 +37,18 @@ module.exports = {
                 // https://css-tricks.com/meta-theme-color-and-trickery/
                 // theme_color: `#f6ad55`,
                 display: `standalone`,
+                icon: `static/icons.svg`,
                 icons: [
-                    // {
-                    //   src: `/android-chrome-192x192.png`,
-                    //   sizes: `192x192`,
-                    //   type: `image/png`,
-                    // },
-                    // {
-                    //   src: `/android-chrome-512x512.png`,
-                    //   sizes: `512x512`,
-                    //   type: `image/png`,
-                    // },
+                    {
+                        src: `/android-chrome-192x192.png`,
+                        sizes: `192x192`,
+                        type: `image/svg`,
+                    },
+                    {
+                        src: `/android-chrome-512x512.png`,
+                        sizes: `512x512`,
+                        type: `image/svg`,
+                    },
                 ],
             },
         },
