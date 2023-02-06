@@ -4,10 +4,6 @@ import { Parallax } from "@react-spring/parallax";
 import { Themed } from "@theme-ui/mdx";
 import Layout from "@lekoarts/gatsby-theme-cara/src/components/layout";
 import Divider from "@lekoarts/gatsby-theme-cara/src/elements/divider";
-import {
-    UpDown,
-    UpDownWide,
-} from "@lekoarts/gatsby-theme-cara/src/styles/animations";
 import Svg from "@lekoarts/gatsby-theme-cara/src/components/svg";
 import Seo from "@lekoarts/gatsby-theme-cara/src/components/seo";
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content";
@@ -22,28 +18,28 @@ const NotFound = () => (
                         icon="circle"
                         hiddenMobile
                         width={24}
-                        color="#f542f2"
+                        color="icon_darker"
                         left="5%"
                         top="70%"
                     />
                     <Svg
                         icon="circle"
                         width={6}
-                        color="#f542f2"
+                        color="icon_darkest"
                         left="4%"
                         top="20%"
                     />
                     <Svg
                         icon="circle"
                         width={12}
-                        color="#f542f2"
+                        color="icon_darkest"
                         left="50%"
                         top="60%"
                     />
                     <Svg
                         icon="circle"
                         width={64}
-                        color="#f542f2"
+                        color="icon_darker"
                         left="95%"
                         top="5%"
                     />
@@ -51,7 +47,7 @@ const NotFound = () => (
                         icon="hexa"
                         width={16}
                         stroke
-                        color="#f542f2"
+                        color="icon_darker"
                         left="10%"
                         top="50%"
                     />
@@ -59,7 +55,7 @@ const NotFound = () => (
                         icon="hexa"
                         width={8}
                         stroke
-                        color="#f542f2"
+                        color="icon_darker"
                         left="80%"
                         top="70%"
                     />
