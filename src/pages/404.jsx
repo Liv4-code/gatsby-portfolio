@@ -22,14 +22,14 @@ const NotFound = () => (
                         icon="circle"
                         hiddenMobile
                         width={24}
-                        color="icon_darker"
+                        color="#f542f2"
                         left="5%"
                         top="70%"
                     />
                     <Svg
                         icon="circle"
                         width={6}
-                        color="icon_darkest"
+                        color="#f542f2"
                         left="4%"
                         top="20%"
                     />
